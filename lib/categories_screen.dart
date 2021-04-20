@@ -13,7 +13,7 @@ class _CategoriesScreenState extends State<CategoriesScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('DeliMeal'),
+        title: const Text('DeliMeal'),
       ),
       body: GridView(
         padding: const EdgeInsets.all(15),
