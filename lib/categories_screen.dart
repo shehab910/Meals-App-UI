@@ -19,6 +19,7 @@ class _CategoriesScreenState extends State<CategoriesScreen> {
         padding: const EdgeInsets.all(15),
         children: DUMMY_CATEGORIES.map((catData) {
           return CategoryItem(
+            catData.id,
             catData.title,
             catData.color,
           );
