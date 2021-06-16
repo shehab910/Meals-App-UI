@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import './screens/filters_screen.dart';
 import './screens/tabs_screen.dart';
 import './screens/categories_screen.dart';
 import './screens/category_meals_screen.dart';
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      title: 'Meals app',
       theme: ThemeData(
         primarySwatch: Colors.teal,
         accentColor: Colors.amberAccent[100],
@@ -40,6 +41,7 @@ class MyApp extends StatelessWidget {
         '/': (ctx) => TabsScreen(),
         CategoryMealsScreen.routeName: (ctx) => CategoryMealsScreen(),
         MealDetailScreen.routeName: (ctx) => MealDetailScreen(),
+        FiltersScreen.routeName: (ctx) => FiltersScreen(),
       },
       onGenerateRoute: //*simillar to 404 webpage
           (settings) {
