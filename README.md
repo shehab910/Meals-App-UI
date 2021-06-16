@@ -6,7 +6,7 @@ A Flutter UI App for displaying meal reciepes add your favorite ones to favorite
 
 | Main Page | Drawer |
 |:-:|:-:|
-| ![First](../assets/image1.png?raw=true) | ![Second](..github/assets/image2.png?raw=true) |
+| ![First](../assets/image1.png?raw=true) | ![Second](../assets/image2.png?raw=true) |
 
 | Recipes List | Recipe Page |
 |:-:|:-:|
