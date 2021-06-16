@@ -14,3 +14,7 @@ A Flutter UI App for displaying meal reciepes add your favorite ones to favorite
 ## What Doesn't work yet
 - Favorites
 - Filters
+
+
+#### Icons
+<a target="_blank" href="https://icons8.com/icon/LQrDwnAk4bPw/cookbook">Cookbook</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
